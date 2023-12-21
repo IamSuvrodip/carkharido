@@ -1,0 +1,55 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(9, 225, 232, 0.7) 0%,
+    rgba(247, 247, 247, 0.416) 250%
+  );
+}
+.heading {
+  font-size: 40px;
+  font-family: Comic Sans MS;
+}
+.box1 {
+  border: 4px solid white;
+  margin: 20px auto;
+  width: 400px;
+  height: 500px;
+  padding: 50px;
+  border-radius: 16px;
+}
+.logo {
+  width: 20%;
+  border-radius: 16px;
+  border: 2px solid gold;
+}
+.statement {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.car {
+  margin: 10px;
+  width: 40%;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.car:hover {
+  opacity: 0.5;
+}
+
+.line {
+  padding: 0%;
+  border: 2px solid white;
+}
+
+.link {
+  font-size: 18px;
+  color: rgb(102, 0, 255);
+  text-decoration: none;
+  font-family: Comic Sans MS;
+}
+.link:hover {
+  color: rgba(0, 42, 255, 0.591);
+}
