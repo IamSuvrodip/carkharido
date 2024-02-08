@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="SRcar">
+	<link rel="stylesheet" type="text/css" href="cssfile.css"/>
+	<title>SRcar.com</title>
+</head>
+<body>
+	<section class="showcase ">
+		<header>
+			<h2 class="logo">SRcar.com</h2>
+			<div class="toggle "></div>
+		</header>
+
+		<video src="car.mp4" muted loop autoplay></video>
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>Speed & Time</h2>
+			<h3>is the <font class="abc">most valuable</font> thing of your life </h3>
+			<p>“Success in life is not for those who run fast, but for those who keep running and always on the move.”</p>
+			<a href="loginhtmlcode.html">Explore</a>
+		</div>
+
+		<ul class="social" >
+			<li><a href="#"><img src="facebook.png" alt="" height="40px" width="40px"></a></li>
+			<li><a href="#"><img src="whatsapp.png" alt="" height="40px" width="40px"></a></li>
+			<li><a href="#"><img src="twitter.png" alt="" height="40px" width="40px"></a></li>
+			<li><a href="#"><img src="insta.png" alt="" height="40px" width="40px"></a></li>
+			<li><a href="#"><img src="green.png" alt="" height="40px" width="40px"></a></li>
+
+		</ul>
+
+	</section>
+
+	<div class="menu">
+	<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">models</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		const menuToggle = document.querySelector('.toggle')
+		const showcase = document.querySelector('.showcase')
+		menuToggle.addEventListener('click',() =>{
+			menuToggle.classList.toggle('active')
+			showcase.classList.toggle('active')
+		})
+	</script>
+
+</body>
+</html>
